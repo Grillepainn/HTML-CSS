@@ -1,0 +1,95 @@
+.section1 {
+  display: flex;
+  padding: 10px;
+}
+
+.section2 {
+  position: absolute;
+  perspective: 1200px;
+  transform-style: preserve-3d;
+
+}
+
+
+
+.carre1 {
+  height: 20px;
+  width: 20px;
+  background-color: indianred;
+  border: 1px solid black;
+  position: absolute;
+  transform: rotateY(150px) translateZ(30deg);
+
+}
+
+.carre2 {
+  height: 20px;
+  width: 20px;
+  background-color: lightcoral;
+  border: 1px solid black;
+  position: absolute;
+  transform: rotateY(150px) translateZ(30deg);
+}
+
+.carre3 {
+  height: 20px;
+  width: 20px;
+  background-color: salmon;
+  border: 1px solid black;
+  position: absolute;
+  transform: rotateY(150px) translateZ(30deg);
+}
+
+.carre4 {
+  height: 20px;
+  width: 20px;
+  background-color: darksalmon;
+  border: 1px solid black;
+  position: absolute;
+  transform: rotateY(150px) translateZ(30deg);
+}
+
+.carre5 {
+  height: 20px;
+  width: 20px;
+  background-color: lightsalmon;
+  border: 1px solid black;
+  position: absolute;
+  transform: rotateY(150px) translateZ(30deg);
+}
+
+.carre6 {
+  height: 20px;
+  width: 20px;
+  background-color: crimson;
+  border: 1px solid black;
+  position: absolute;
+  transform: rotateY(150px) translateZ(30deg);
+}
+
+.carre7 {
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  border: 1px solid black;
+  position: absolute;
+  transform: rotateY(150px) translateZ(30deg);
+}
+
+.carre8 {
+  height: 20px;
+  width: 20px;
+  background-color: firebrick;
+  border: 1px solid black;
+  position: absolute;
+  transform: rotateY(150px) translateZ(30deg);
+}
+
+.carre9 {
+  height: 20px;
+  width: 20px;
+  background-color: darkred;
+  border: 1px solid black;
+  position: absolute;
+  transform: rotateY(150px) translateZ(30deg);
+}
