@@ -1,0 +1,49 @@
+#section {
+  padding: 80px;
+  display: flex
+}
+
+.cercle1 {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 50%;
+  animation: masuperanimation 1s;
+  animation-iteration-count: infinite;
+
+}
+
+.cercle2 {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 50%;
+  animation: masuperanimation 1s;
+  animation-delay: 0.33s;
+  animation-iteration-count: infinite;
+}
+
+.cercle3 {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 50%;
+  animation: masuperanimation 1s;
+  animation-delay: 0.66s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes masuperanimation {
+  33% {
+    background-color: grey;
+  }
+  66% {
+    background-color: black;
+  }
+  100% {
+    background-color: white;
+  }
+}
