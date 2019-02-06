@@ -1,0 +1,16 @@
+.long {
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: rotacolor;
+  animation-duration: 4s;
+  position: absolute;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes rotacolor {
+  from {background-color: red;}
+  to {background-color: yellow; transform: rotate(360deg);}
+}

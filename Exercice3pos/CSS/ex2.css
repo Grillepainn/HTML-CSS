@@ -1,0 +1,24 @@
+.carre1
+{
+  background-color: blue;
+}
+
+.carre2
+{
+  background-color: red;
+  left : 40px;
+}
+
+.carre3
+{
+  background-color: green;
+  right: 90px;
+}
+
+div
+{
+  border: 1px solid black;
+  padding: 20px;
+  position: relative;
+  opacity: 0.8;
+}

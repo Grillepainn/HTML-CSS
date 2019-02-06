@@ -1,0 +1,52 @@
+.main
+{
+  height: 550px;
+  width: 550px;
+  background-color: grey;
+  position: relative;
+  box-sizing: border-box;
+  padding: 25px;
+}
+.carre1, .carre2, .carre3, .carre4
+{
+  border: 5px solid black;
+  height: 200px;
+  width: 200px;
+  opacity: 0.8;
+}
+.carre1
+{
+  background-color: blue;
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  z-index: 2;
+}
+
+.carre2
+{
+  background-color: red;
+  position: absolute;
+  left: 95px;
+  top: 95px;
+  z-index: 4;
+
+}
+
+.carre3
+{
+  background-color: green;
+  position: absolute;
+  top: 295px;
+  left: 295px;
+  z-index: 2;
+}
+
+.carre4
+{
+  background-color: pink;
+  position: absolute;
+  top: 245px;
+  left: 245px;
+  z-index: 3;
+}

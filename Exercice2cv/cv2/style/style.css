@@ -1,0 +1,12 @@
+body {
+	background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png) repeat;
+	margin: 0;
+}
+
+ul {
+list-style:none;
+}
+
+h1, h2, h3, p, li {
+	color : white;
+}

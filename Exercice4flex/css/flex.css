@@ -1,0 +1,50 @@
+header, #contenu, aside, footer
+{
+  border: 1px solid black;
+  text-align: center;
+}
+
+header
+{
+  background-color: red;
+}
+
+ul
+{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 0px;
+}
+
+li
+{
+  display: flex;
+  flex: 1;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#contenu
+{
+  display: flex;
+  height: 600px;
+}
+
+#contenu aside
+{
+  background-color: green;
+  flex: 1;
+}
+
+#contenu article
+{
+  display: flex;
+  flex: 3;
+  padding: 25px;
+}
+
+footer
+{
+  background-color: orange;
+}

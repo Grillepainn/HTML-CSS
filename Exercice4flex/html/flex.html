@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercice Flexbox</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/flex.css"/>
+  </head>
+
+  <body>
+<!-- La page va être divisé en 3 parties : le header, un conteneur et un footer. -->
+    <!-- Le hearder contient le titre et un menu de navigation, le display intervient à partir des balises <ul> -->
+    <header>
+      <h1>Hearder</h1><br>
+      <h2>Nav</h2><br>
+      <nav>
+        <ul>
+          <li>Lien 1</li>
+          <li>Lien 2</li>
+          <li>Lien3</li>
+          <li>Lien4</li>
+          <li>Lien 5</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Le contenu va contenir 3 parties, à savoir 2 asides qui entoure un article. L'article occupera 50% de la largeur du conteneur -->
+    <!-- Le conteneur entier est en displey flex pour avoir nos 3 colonnes, l'article à également un display flex pour avoir également ses 3 colonnes de paragraphes -->
+    <section id="contenu">
+      <aside>
+        <h2>Aside 1</h2>
+      </aside>
+      <article>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+      </article>
+      <aside id="aside2">
+        <h2>Aside 2</h2>
+      </aside>
+    </section>
+
+    <!-- Le footer est une section qui occupe 100% de la largeur de la page -->
+    <footer>
+      <h2>Footer</h2>
+    </footer>
+
+  </body>
+
+</html>
