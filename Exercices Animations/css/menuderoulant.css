@@ -1,0 +1,17 @@
+.etir {
+  height: 75px;
+  width: 125px;
+  background-color: black;
+  border-radius: 10%;
+  transition: 2s;
+  padding: 20px;
+}
+
+.etir:hover {
+  height: 600px;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
