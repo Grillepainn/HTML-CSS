@@ -1,20 +1,21 @@
 .fond {
-  height: 600px;
+  height: 650px;
   width: 800px;
   background-color: grey;
 }
 
 .section1 {
   position:relative;
+  top: 50px;
   padding: 10px;
   perspective: 1200px;
-  animation: direction 8s infinite;
+  animation: direction 8s infinite linear;
 }
 
 .section2 {
   position: absolute;
   transform-style: preserve-3d;
-  animation: rotation 10s infinite;
+  animation: rotation 10s infinite linear;
   left: 150px;
   top: 50px;
 }
