@@ -1,95 +1,100 @@
+.fond {
+  height: 600px;
+  width: 800px;
+  background-color: grey;
+}
+
 .section1 {
-  display: flex;
+  position:relative;
   padding: 10px;
+  perspective: 1200px;
+  animation: direction 8s infinite;
 }
 
 .section2 {
   position: absolute;
-  perspective: 1200px;
   transform-style: preserve-3d;
-
+  animation: rotation 10s infinite;
+  left: 150px;
+  top: 50px;
 }
 
+@keyframes rotation {
+  from {
+    transform: rotateY(-360deg) rotateX(-360deg);
+  }
+  to {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+}
 
+@keyframes direction {
+  from {
+    transform: translateX(0px) translateY(0px) ;
+  }
+  20% {
+    transform: translateX(530px) translateY(55px);
+  }
+  40% {
+    transform: translateX(330px) translateY(450px);
+  }
+  60% {
+    transform: translateX(0px) translateY(320px);
+  }
+  80% {
+    transform: translateX(500px) translateY(200px);
+  }
+}
 
-.carre1 {
+div {
   height: 20px;
   width: 20px;
   background-color: indianred;
   border: 1px solid black;
   position: absolute;
-  transform: rotateY(150px) translateZ(30deg);
+}
 
+.carre1 {
+  transform: rotateY(0deg) translateZ(100px);
+  background-color: greenyellow;
 }
 
 .carre2 {
-  height: 20px;
-  width: 20px;
-  background-color: lightcoral;
-  border: 1px solid black;
-  position: absolute;
-  transform: rotateY(150px) translateZ(30deg);
+  transform: rotateY(40deg) translateZ(100px);
+  background-color: chartreuse;
 }
 
 .carre3 {
-  height: 20px;
-  width: 20px;
-  background-color: salmon;
-  border: 1px solid black;
-  position: absolute;
-  transform: rotateY(150px) translateZ(30deg);
+  transform: rotateY(80deg) translateZ(100px);
+  background-color: lawngreen;
 }
 
 .carre4 {
-  height: 20px;
-  width: 20px;
-  background-color: darksalmon;
-  border: 1px solid black;
-  position: absolute;
-  transform: rotateY(150px) translateZ(30deg);
+  transform: rotateY(120deg) translateZ(100px);
+  background-color: lime;
 }
 
 .carre5 {
-  height: 20px;
-  width: 20px;
-  background-color: lightsalmon;
-  border: 1px solid black;
-  position: absolute;
-  transform: rotateY(150px) translateZ(30deg);
+  transform: rotateY(160deg) translateZ(100px);
+  background-color: limegreen;
 }
 
 .carre6 {
-  height: 20px;
-  width: 20px;
-  background-color: crimson;
-  border: 1px solid black;
-  position: absolute;
-  transform: rotateY(150px) translateZ(30deg);
+  transform: rotateY(200deg) translateZ(100px);
+  background-color: palegreen;
 }
 
 .carre7 {
-  height: 20px;
-  width: 20px;
-  background-color: red;
-  border: 1px solid black;
-  position: absolute;
-  transform: rotateY(150px) translateZ(30deg);
+  transform: rotateY(240deg) translateZ(100px);
+  background-color: lightgreen;
 }
 
 .carre8 {
-  height: 20px;
-  width: 20px;
-  background-color: firebrick;
-  border: 1px solid black;
-  position: absolute;
-  transform: rotateY(150px) translateZ(30deg);
+  transform: rotateY(280deg) translateZ(100px);
+  background-color: mediumspringgreen;
 }
 
 .carre9 {
-  height: 20px;
-  width: 20px;
-  background-color: darkred;
-  border: 1px solid black;
-  position: absolute;
-  transform: rotateY(150px) translateZ(30deg);
+  transform: rotateY(320deg) translateZ(100px);
+  background-color: mediumseagreen;
 }
