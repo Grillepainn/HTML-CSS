@@ -1,24 +1,13 @@
-@font-face {
-  font-family: 'LettersForLearners';
-  src:url(../font/font.ttf);
-}
-
-body {
-  font-family: 'LettersForLearners';
-  font-size: 1.5em;
-
-}
-
-@media screen and (max-width:700px)
+@media screen and (max-width:640px)
 {
   .col-sm-1
   {
-    width: 8.33%;
+    width: 8.33%
   }
 
   .col-sm-2
   {
-    width: 16.66%;
+    width: 16.66%
   }
 
   .col-sm-3
@@ -33,7 +22,7 @@ body {
 
   .col-sm-5
   {
-    width: 41.66%;
+    width: 41.66%
   }
 
   .col-sm-6
@@ -43,7 +32,7 @@ body {
 
   .col-sm-7
   {
-    width: 58.33%;
+    width: 58.33%
   }
 
   .col-sm-8
@@ -63,40 +52,25 @@ body {
 
   .col-sm-11
   {
-    width: 91.66%;
+    width: 91.66%
   }
 
   .col-sm-12
   {
     width: 100%;
   }
-
-  #sousinfogen {
-    display: flex;
-  }
-
-  #coljourssuivants {
-    display: flex;
-  }
-
-  #align
-  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
 
-@media screen and (max-width:900px)
+@media screen and (min-width:900px)
 {
   .col-md-1
   {
-    width: 8.33%;
+    width: 8.33%
   }
 
   .col-md-2
   {
-    width: 16.66%;
+    width: 16.66%
   }
 
   .col-md-3
@@ -111,7 +85,7 @@ body {
 
   .col-md-5
   {
-    width: 41.66%;
+    width: 41.66%
   }
 
   .col-md-6
@@ -121,7 +95,7 @@ body {
 
   .col-md-7
   {
-    width: 58.33%;
+    width: 58.33%
   }
 
   .col-md-8
@@ -141,40 +115,25 @@ body {
 
   .col-md-11
   {
-    width: 91.66%;
+    width: 91.66%
   }
 
   .col-md-12
   {
     width: 100%;
   }
-
-  #sousinfogen {
-    display: flex;
-  }
-
-  #coljourssuivants {
-    display: flex;
-  }
-
-  #align
-  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
 
-@media screen and (max-width:1000px)
+@media screen and (min-width:1200px)
 {
   .col-lg-1
   {
-    width: 8.33%;
+    width: 8.33%
   }
 
   .col-lg-2
   {
-    width: 16.66%;
+    width: 16.66%
   }
 
   .col-lg-3
@@ -189,7 +148,7 @@ body {
 
   .col-lg-5
   {
-    width: 41.66%;
+    width: 41.66%
   }
 
   .col-lg-6
@@ -199,9 +158,8 @@ body {
 
   .col-lg-7
   {
-    width: 58.33%;
-  }
-
+    width: 58.33%
+  }lg
   .col-lg-8
   {
     width: 66.66%;
@@ -219,7 +177,7 @@ body {
 
   .col-lg-11
   {
-    width: 91.66%;
+    width: 91.66%
   }
 
   .col-lg-12
